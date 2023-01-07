@@ -5,7 +5,7 @@ server {
     listen [::]:8080;
     root /home/site/wwwroot/public; # changed for Laravel
     index  index.php index.html index.htm;
-    server_name  example.com www.example.com; 
+    server_name  netflix-0.azurewebsites.net; 
 
     location / {            
         try_files $uri $uri/ /index.php?$args; # changed for Laravel
